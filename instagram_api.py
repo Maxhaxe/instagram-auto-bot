@@ -6,5 +6,4 @@ def post_to_instagram(image_path, caption, access_token, instagram_account_id):
     In productie: vervang dit met echte stappen voor media upload + publish.
     """
     print(f"📸 Echte post naar Instagram: {image_path} | Caption: {caption}")
-    # TODO: Implementeer echte Graph API calls hier
     return True

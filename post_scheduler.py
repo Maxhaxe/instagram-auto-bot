@@ -20,7 +20,6 @@ def check_and_post():
             if success:
                 c.execute("UPDATE scheduled_posts SET status = 'posted' WHERE id = ?", (post_id,))
                 conn.commit()
-
     conn.close()
 
 if __name__ == "__main__":
